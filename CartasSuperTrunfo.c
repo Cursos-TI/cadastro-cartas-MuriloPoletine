@@ -8,9 +8,9 @@
 // Área para definição das variáveis para armazenar as propriedades das cidades
 
 int main(){
-  char estado;
-  char codigocarta;
-  char nomedacidade;
+  char estado[30];
+  char codigocarta[30];
+  char nomedacidade[30];
   int populacao;
   float area;
   float pib;
@@ -34,7 +34,7 @@ int main(){
   scanf("%f", &area);
 
   printf("Digite o valor do PIB do estado: \n");
-  scanf("&f", &pib);
+  scanf("%f", &pib);
 
   printf("Digite o número de pontos  turísticos: \n");
   scanf("%d", &pontosturisticos);
